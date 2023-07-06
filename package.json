@@ -1,0 +1,19 @@
+{
+  "license": "MIT",
+  "packageManager": "yarn@3.3.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "app": "yarn workspace @botville/app",
+    "dev": "yarn workspaces foreach --all --interlaced --verbose --parallel --jobs unlimited run dev",
+    "build": "yarn workspaces foreach --all --interlaced --verbose --topological --jobs unlimited run build",
+    "clean": "yarn workspaces foreach --all --interlaced --verbose --parallel --jobs unlimited run clean && rimraf node_modules"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.1"
+  },
+  "resolutions": {
+    "eslint-plugin-react-hooks@^4.6.0": "patch:eslint-plugin-react-hooks@^4.6.0#.yarn/patches/eslint-plugin-react-hooks-npm-4.6.0-b429fac07f.patch"
+  }
+}

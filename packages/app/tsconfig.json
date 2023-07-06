@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "exclude": ["./src/**/*.test.tsx"],
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": "./",
+
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react"
+  }
+}

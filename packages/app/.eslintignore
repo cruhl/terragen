@@ -1,0 +1,5 @@
+*.spec.ts
+*.test.ts
+*.js
+src/Documentation/**/*.md
+*.stories.tsx
