@@ -317,6 +317,7 @@ __metadata:
     eslint-plugin-react: ^7.32.2
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-react-refresh: ^0.4.1
+    perlin-noise: ^0.0.1
     postcss: ^8.4.24
     prettier: ^2.8.8
     prettier-plugin-tailwindcss: ^0.3.0
@@ -3849,6 +3850,13 @@ __metadata:
   version: 1.1.1
   resolution: "pathe@npm:1.1.1"
   checksum: 34ab3da2e5aa832ebc6a330ffe3f73d7ba8aec6e899b53b8ec4f4018de08e40742802deb12cf5add9c73b7bf719b62c0778246bd376ca62b0fb23e0dde44b759
+  languageName: node
+  linkType: hard
+
+"perlin-noise@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "perlin-noise@npm:0.0.1"
+  checksum: e8f965f675ff483511773e86ffd0d17b79882ed041b3f4b24b7b94542542c1dc2023993cbbe7eaf623b12da55c497befe31497123f3f3aa95fb22c4c96558f55
   languageName: node
   linkType: hard
 
